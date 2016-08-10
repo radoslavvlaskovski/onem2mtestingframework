@@ -11,8 +11,7 @@ setup(name='onem2mtesting',
       install_requires=[
           'xmltodict',
           'paho-mqtt',
-          'requests',
-          '_tkinter'
+          'requests'
       ]
      )
 
