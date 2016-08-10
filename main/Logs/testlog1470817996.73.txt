@@ -1,0 +1,171 @@
+
+
+########################################################################################
+Starting Test 08/10/16 10:33:16
+########################################################################################
+
+
+Test 1
+Test id: 1470818108.831
+Test time: 08/10/16 10:35:08
+Test description Custom Test for url: http://openmtc5.fokus.fraunhofer.de:8086/onem2m
+Test Result: Success
+
+Received: Response Status Code: 2000 OK HTTP: 200
+Expected: Response Status Code: 2000 OK HTTP: 200
+
+Response Time: 1.406 secs
+
+
+Test 2
+Test id: 1470818142.972
+Test time: 08/10/16 10:35:42
+Test description Custom Test for url: http://openmtc5.fokus.fraunhofer.de:8086/onem2m
+Test Result: Success
+
+Received: Response Status Code: 2001 CREATED HTTP: 201
+Expected: Response Status Code: 2001 CREATED HTTP: 201
+
+Response Time: 1.5 secs
+
+
+Test 3
+Test id: 1470818177.453
+Test time: 08/10/16 10:36:17
+Test description Custom Test for url: http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+Test Result: Success
+
+Received: Response Status Code: 2000 OK HTTP: 200
+Expected: Response Status Code: 2000 OK HTTP: 200
+
+Response Time: 1.218 secs
+
+
+
+ STARTING SYNTAX TEST 
+
+Test ID: 1470817996.734
+
+Test 4
+Test time: 08/10/16 10:37:40
+Test description Syntax Test for url: http://openmtc5.fokus.fraunhofer.de:8086/onem2m
+
+Received: Mandatory Parameter: op given: False
+Expected: Mandatory Parameter: op given: True
+
+Received: Mandatory Parameter: to given: False
+Expected: Mandatory Parameter: to given: True
+
+Received: Mandatory Parameter: ty given: False
+Expected: Mandatory Parameter: ty given: True
+
+Received: Mandatory Parameter: pc given: False
+Expected: Mandatory Parameter: pc given: True
+
+Received: Mandatory Parameter: x-m2m-origin given: False
+Expected: Mandatory Parameter: x-m2m-origin given: True
+
+Received: Mandatory Parameter: x-m2m-ri given: True
+Expected: Mandatory Parameter: x-m2m-ri given: True
+
+Received: Optional Parameter: csi exists
+Expected: Optional Parameter: csi exists
+
+Received: Optional Parameter: lt exists
+Expected: Optional Parameter: lt exists
+
+Received: Optional Parameter: srt exists
+Expected: Optional Parameter: srt exists
+
+Received: Optional Parameter: cst exists
+Expected: Optional Parameter: cst exists
+
+Received: Optional Parameter: rn exists
+Expected: Optional Parameter: rn exists
+
+Received: Optional Parameter: poa exists
+Expected: Optional Parameter: poa exists
+
+Received: Optional Parameter: ri exists
+Expected: Optional Parameter: ri exists
+
+Received: Optional Parameter: ct exists
+Expected: Optional Parameter: ct exists
+
+Received: Optional Parameter: x-m2m-rsc does not exist
+Expected: Optional Parameter: x-m2m-rsc exists
+
+Received: Not Permitted Parameter: fc given: False
+Expected: Not Permitted Parameter: fc given: False
+
+Received: Not Permitted Parameter: drt given: False
+Expected: Not Permitted Parameter: drt given: False
+
+Test Result: Failed
+
+Response Time: 1.245 secs
+
+
+Test 5
+Test id: 1470818511.085
+Test time: 08/10/16 10:41:51
+Test description Check attribute ri for url: http://openmtc5.fokus.fraunhofer.de:8086/onem2m
+Test Result: Success
+
+Received: cb0
+Expected: cb0
+
+Response Time: 1.307 secs
+
+
+
+ STARTING BEHAVIOUR TEST 
+
+Test ID: 1470817996.736
+
+Test description: create
+URL used: http://openmtc5.fokus.fraunhofer.de:8086/onem2m
+Test Result: Success
+Received: 2001
+Expected: 2001
+
+Test description: get
+URL used: http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+Test Result: Success
+Received: 2000
+Expected: 2000
+
+Test description: delete
+URL used: http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+Test Result: Success
+Received: 2000
+Expected: 2000
+
+Test Result: Success
+
+BEHAVIOR TEST DONE IN : 3.70399999619
+ STARTING BEHAVIOUR TEST 
+
+Test ID: 1470817996.737
+
+Test description: create
+URL used: http://openmtc5.fokus.fraunhofer.de:8086/onem2m
+Test Result: Success
+Received: 2001
+Expected: 2001
+
+Test description: delete
+URL used: http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+Test Result: Success
+Received: 2000
+Expected: 2000
+
+Test description: delete
+URL used: http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+Test Result: Success
+Received: 4004
+Expected: 4004
+
+Test Result: Success
+
+BEHAVIOR TEST DONE IN : 3.73699998856

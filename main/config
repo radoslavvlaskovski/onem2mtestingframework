@@ -1,0 +1,3 @@
+console_print 1
+log_to_file 1
+gui 1

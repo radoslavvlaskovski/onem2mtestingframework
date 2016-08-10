@@ -1,0 +1,1 @@
+behaviour crd http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae

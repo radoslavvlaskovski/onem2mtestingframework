@@ -1,0 +1,31 @@
+create http://openmtc5.fokus.fraunhofer.de:8086/onem2m 2001 test_create_ae.json
+
+retrieve http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae 2000
+
+get http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae 2000
+
+delete http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae 2000
+
+parameter console http://openmtc5.fokus.fraunhofer.de:8086/onem2m ri=cb0
+
+parameter file http://openmtc5.fokus.fraunhofer.de:8086/onem2m test
+
+syntax response create http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json
+
+syntax response retrieve http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae 
+
+syntax response delete http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+
+syntax json create syntax_test.json
+
+behaviour crd http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+
+behaviour cd http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+
+behaviour cdd http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+
+behaviour cdr http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json http://openmtc5.fokus.fraunhofer.de:8086/~/mn-cse-1/onem2m/test_ae
+
+behaviour cc http://openmtc5.fokus.fraunhofer.de:8086/onem2m test_create_ae.json
+
+behaviour custom first
