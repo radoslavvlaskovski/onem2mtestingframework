@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+
 setup(name='onem2mtesting',
       version='1.0',
       description='A Framework designed to test Applications Compliant with the oneM2M standard',
@@ -10,8 +11,7 @@ setup(name='onem2mtesting',
       install_requires=[
           'xmltodict',
           'paho-mqtt',
-          'requests',
-          'python-tk'
+          'requests'
       ]
      )
 
